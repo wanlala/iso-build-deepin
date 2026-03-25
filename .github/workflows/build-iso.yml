@@ -28,8 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run build sh
         run: |
-          export LOCALES=zh_CN.UTF-8,
-          chmod +x ./build,
-          ./build amd64.
+          export LOCALES=zh_CN.UTF-8
+          chmod +x ./build
+          ./build amd64
 
       
